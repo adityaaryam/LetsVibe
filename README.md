@@ -255,4 +255,4 @@ we create a ```socket``` for each user and map to each userID.  Whenever a new c
 <br><br>
 
 > Configure the ```.env``` file as required and use ```npm install``` to install the required dependencies to run this web-app on your local system.<br>
-> Suugesting Improvements are welcome!
+> Suggestions & Improvements are welcome!
