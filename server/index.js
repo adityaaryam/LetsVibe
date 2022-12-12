@@ -24,13 +24,13 @@ mongoose
 
 app.use("/api/auth", authRoutes);
 app.use("/api/messages", messageRoutes);
-app.get("/","Success");
+// app.get("/","Success");
 const server = app.listen(process.env.PORT || 5000, () =>
   console.log(`Server started on ${process.env.PORT}`)
 );
 const io = socket(server, {
   cors: {
-    origin: "https://letsvibe.netlify.app",
+    origin: "http://localhost:3000",
     credentials: true,
   },
 });
